@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sajjadamin.outgoings">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".EditDataActivity" />
+        <activity android:name=".AddDataActivity" />
+        <activity android:name=".EditBudgetActivity" />
+        <activity android:name=".AddBudgetActivity" />
+        <activity android:name=".DataActivity" />
+        <activity android:name=".BudgetActivity" />
+        <activity android:name=".EditInfoActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
